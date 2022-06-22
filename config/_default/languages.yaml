@@ -1,0 +1,22 @@
+
+
+# Default language
+en:
+  languageCode: en-us
+  languageName: English
+  # baseURL: https://akaalharbi.github.io
+  weight: 1
+
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  #contentDir: content/en
+
+# العربية
+ar:
+  #languagedirection: rtl
+  languageCode: ar
+  # baseURL: https://akaalharbi.github.io/ar
+  contentDir: content/ar
+  title: أحمد الحربي
+  weight: 2
+  # params:
+    # description: مدونة ...

@@ -1,0 +1,49 @@
+/*************************************************
+ *  Style for right to left (RTL) languages.
+ **************************************************/
+
+/*! rtl:begin:ignore */
+html[dir="rtl"] {
+  body {
+    text-align: right;
+  }
+
+  // make sure code block dir is ltr
+  pre,
+  code {
+    text-align: left;
+    direction: ltr;
+  }
+
+  // fix code copy button
+  .btn-copy-code {
+    right: 4px;
+    left: unset;
+  }
+
+  // keep back-to-top on the right
+  .float-right {
+    float: right !important;
+  }
+
+  // keep flowcharts ltr
+  .mermaid {
+    direction: ltr;
+  }
+
+  // fix footnote arrow direction
+  a.footnote-backref {
+    font-size: 0;
+  }
+
+  a.footnote-backref:after {
+    content: '\21AA';
+    font-size: 1rem;
+  }
+
+  // fix see all arrow direction
+  .see-all .fa-angle-right:before {
+    content: "\f104";
+  }
+}
+/*! rtl:end:ignore */
