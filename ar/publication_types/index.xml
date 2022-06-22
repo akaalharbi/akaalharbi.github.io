@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | أحمد الحربي</title>
+    <link>https://akaalharbi.github.io/ar/publication_types/</link>
+      <atom:link href="https://akaalharbi.github.io/ar/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ar</language>
+    <image>
+      <url>https://akaalharbi.github.io/media/logo_hub46516a2f96be106613fa4551e055d59_482_300x300_fit_lanczos_3.png</url>
+      <title>Publication_types</title>
+      <link>https://akaalharbi.github.io/ar/publication_types/</link>
+    </image>
+    
+  </channel>
+</rss>
