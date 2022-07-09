@@ -1,0 +1,12 @@
+# Font style metadata
+name = "notosansarabic"
+
+# Optional Google font URL
+google_fonts = ""
+
+# Font families
+heading_font = "Noto Sans Arabic"
+body_font = "Noto Sans Arabic"
+nav_font = "Noto Sans Arabic"
+mono_font = "Noto Sans Arabic"
+

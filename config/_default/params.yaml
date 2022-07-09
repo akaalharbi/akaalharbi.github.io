@@ -8,7 +8,7 @@
 appearance:
   theme_day: cyberpunk
   theme_night: cyberpunk
-  font: minimal # Mr Robot # Cyberpunk
+  font: notosansarabic #minimal # Mr Robot # Cyberpunk
   font_size: L
 
 # SEO
@@ -40,7 +40,8 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    # notice: '{year}  This work is licensed under {license}'
+    notice: 'This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -62,9 +63,10 @@ features:
     extra_languages:
       - r
       - latex
+      - python
   math:
-    enable: false
-  privacy_pack:
+    enable: true
+  privacy_pack: 
     enable: false
   repository:
     url: 'https://github.com/<username>/<repository>'
