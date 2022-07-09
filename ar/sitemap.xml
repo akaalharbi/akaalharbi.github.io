@@ -14,6 +14,16 @@
       href="https://akaalharbi.github.io/ar/categories/"
     /></url>
   <url>
+    <loc>https://akaalharbi.github.io/ar/post.old/</loc><lastmod>2022-06-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://akaalharbi.github.io/post.old/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="https://akaalharbi.github.io/ar/post.old/"
+    /></url>
+  <url>
     <loc>https://akaalharbi.github.io/ar/post/</loc><lastmod>2022-06-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
@@ -114,7 +124,9 @@
       href="https://akaalharbi.github.io/ar/tag/%D9%82%D8%A8%D9%88%D9%84/"
     /></url>
   <url>
-    <loc>https://akaalharbi.github.io/ar/post/interview-and-planning/</loc><lastmod>2022-06-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://akaalharbi.github.io/ar/post.old/interview-and-palnning/</loc><lastmod>2022-06-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://akaalharbi.github.io/ar/post/interview-and-palnning/</loc><lastmod>2022-06-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://akaalharbi.github.io/ar/tag/academic/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
@@ -136,14 +148,14 @@
       href="https://akaalharbi.github.io/ar/category/demo/"
     /></url>
   <url>
-    <loc>https://akaalharbi.github.io/ar/post/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://akaalharbi.github.io/ar/post.old/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://akaalharbi.github.io/post/getting-started/"
+      href="https://akaalharbi.github.io/post.old/getting-started/"
     /><xhtml:link
       rel="alternate"
       hreflang="ar"
-      href="https://akaalharbi.github.io/ar/post/getting-started/"
+      href="https://akaalharbi.github.io/ar/post.old/getting-started/"
     /></url>
   <url>
     <loc>https://akaalharbi.github.io/ar/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -166,14 +178,14 @@
       href="https://akaalharbi.github.io/ar/category/%E6%95%99%E7%A8%8B/"
     /></url>
   <url>
-    <loc>https://akaalharbi.github.io/ar/post/jupyter/</loc><lastmod>2019-09-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://akaalharbi.github.io/ar/post.old/jupyter/</loc><lastmod>2019-09-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://akaalharbi.github.io/post/jupyter/"
+      href="https://akaalharbi.github.io/post.old/jupyter/"
     /><xhtml:link
       rel="alternate"
       hreflang="ar"
-      href="https://akaalharbi.github.io/ar/post/jupyter/"
+      href="https://akaalharbi.github.io/ar/post.old/jupyter/"
     /></url>
   <url>
     <loc>https://akaalharbi.github.io/ar/contact/</loc><changefreq>weekly</changefreq><xhtml:link
