@@ -5,7 +5,7 @@
     <link>https://akaalharbi.github.io/tag/%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%A1/</link>
       <atom:link href="https://akaalharbi.github.io/tag/%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%A1/index.xml" rel="self" type="application/rss+xml" />
     <description>حوسبة عالية الأداء</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://akaalharbi.github.io/media/logo_hub46516a2f96be106613fa4551e055d59_482_300x300_fit_lanczos_3.png</url>
       <title>حوسبة عالية الأداء</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>مقابلة الدكتوراه والتجهيز لما قبل بدء الدراسة</title>
-      <link>https://akaalharbi.github.io/ar/post.old/interview-and-palnning/</link>
-      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://akaalharbi.github.io/ar/post.old/interview-and-palnning/</guid>
+      <link>https://akaalharbi.github.io/ar/post/interview-and-palnning/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://akaalharbi.github.io/ar/post/interview-and-palnning/</guid>
       <description>&lt;style&gt;
 h1, h2, h3, h4, h5, h6, h7
 {
@@ -46,12 +46,12 @@ font-weight: bold; // it was normal
 &lt;p dir=&#34;rtl&#34;&gt;
 خلال المراسلات للبحث عن قبول أبدى أحد الدكاترة(لاحقا مشرفي) وأرسل لي &lt;a href=&#34;https://eprint.iacr.org/2022/197&#34;&gt;ورقة&lt;/a&gt; مع امتحان سيسألني عنه وحدد موعد للمقابلة عن طريق زوم zoom.
  &lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;في بداية المقابلة ناقش الحلول معي، ثم بدأ يسألني لم أنا مهتم بالعمل معه؟ وما هي خلفيتي؟ وعن المواضيعا للي أنا مهتم بالعمل فيها؟ وهل تواصلت مع أشخاص آخرين؟ وفي إطار هذا السؤال بدأ يشرح عن مجموعات بحثية في أوروبا واقترح علي عدة أسماء أتواصل معهم. 
+&lt;p dir=&#34;rtl&#34;&gt;في بداية المقابلة ناقش الحلول معي، ثم بدأ يسألني لم أنا مهتم بالعمل معه؟ وما هي خلفيتي؟ وعن المواضيع hاللي أنا مهتم بالعمل فيها؟ وهل تواصلت مع أشخاص آخرين؟ وفي إطار هذا السؤال بدأ يشرح عن مجموعات بحثية في أوروبا واقترح علي عدة أسماء أتواصل معهم. 
 &lt;p&gt;ومن ثم ذكر لي خلفيته وعن المسائل اللي مهتم بالعمل فيها وعن النتائج المهتم أن يراها خلال مدى ثلاث سنين. في نهاية المقابلة ذكر لي شفويا إنه مستعد لقبولي كطالب لديه&lt;/p&gt;&lt;/p&gt;
 &lt;h2 id=&#34;موضوع-الرسالة&#34;&gt;موضوع الرسالة&lt;/h2&gt;
 &lt;h3 id=&#34;خلفية-قياس-صعوبة-الهجمات-على-التشفير&#34;&gt;خلفية: قياس صعوبة الهجمات على التشفير&lt;/h3&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
-في التشفير ليس هناك مقياس واضح للتعقيد الحسابي Complexity. لو استخدمنا ترميز &lt;a href=&#34;https://ar.wikipedia.org/wiki/%D8%AA%D9%85%D8%AB%D9%8A%D9%84_O_%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89&#34;&gt;Big-O&lt;/a&gt; لأصبحت صعوبة أغلب المسائل في التشفير متناظر كلها ثابتة O(1)، مثلا لكسر معيار التشفير المتقدم AES نحتاج على الأكثر $2^{256}$  تخمين وهو ما يندرج تحت تعريف O(1).
+في التشفير ليس هناك مقياس واضح للتعقيد الحسابي Complexity. لو استخدمنا ترميز &lt;a href=&#34;https://ar.wikipedia.org/wiki/%D8%AA%D9%85%D8%AB%D9%8A%D9%84_O_%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89&#34;&gt;Big-O&lt;/a&gt; لأصبحت صعوبة أغلب المسائل في التشفير متناظر كلها ثابتة &lt;span dir=&#34;ltr&#34;&gt;O(1)&lt;/span&gt;، مثلا لكسر معيار التشفير المتقدم AES نحتاج على الأكثر $2^{256}$  تخمين وهو ما يندرج تحت تعريف&lt;span dir=&#34;ltr&#34;&gt;O(1)&lt;/span&gt;.
 &lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;النموذج المتبع هو إننا نعد كم مرة استدعينا دالة التشفير، ونرى ما إذا كانت الهجمة الجديدة عدد استدعاءاتها أقل من البحث العشوائي.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;مثال&lt;/strong&gt;&lt;/p&gt;
@@ -61,27 +61,42 @@ font-weight: bold; // it was normal
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ciphertext = AES_128(m, k) 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p dir=&#34;rtl&#34;&gt;لو  عرف االمهاجم المفتاح k سيعتبر إنه كسر التشفير بحالتنا هذه. لنفرض إن لدى المهاجم النص m، والنص المشفر ciphertext وسيخمن k. سيجرب مفتاح مفتاح، ومع كل مفتاح سيستدعي &lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;AES-128(m, guess)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;في حالتنا هذه سيحتاج بأسوأ الأحوال لتجربة
-$2^{128}$&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt; 
-مفتاح. لو اكتشفنا طريقة لإيجاد k بعدد حسابات أقل من من هذا الرقم، ستعتبر هجمة.&lt;/p&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p dir=&#34;rtl&#34;&gt;
+في حالتنا هذه سيحتاج بأسوأ الأحوال لتجربة 
+&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;
+  &lt;msup&gt;
+    &lt;mn&gt;2&lt;/mn&gt;
+    &lt;mrow data-mjx-texclass=&#34;ORD&#34;&gt;
+      &lt;mn&gt;128&lt;/mn&gt;
+    &lt;/mrow&gt;
+  &lt;/msup&gt;
+&lt;/math&gt;
+مفتاح. لو اكتشفنا طريقة لإيجاد k بعدد حسابات أقل من من هذا الرقم، ستعتبر هجمة.
+&lt;/p&gt; 
 &lt;h4 id=&#34;أين-تكمن-المشكلة-في-النموذج-بالأعلى&#34;&gt;أين تكمن المشكلة في النموذج بالأعلى؟&lt;/h4&gt;
 &lt;p dir=&#34;rtl&#34;&gt;هناك فرض ضمني إن تكلفة الذاكرة هي نفس تكلفة المعالج. أيضا بحسب هذا لو احتجنا إلى لقراءة 1 تيرابايت فإن سرعة قراءة أول بت هي نفس سرعة قراءة آخر بت. لنفرض إننا استطعنا تخزين مفتاح AES-128 داخل ذَرّة واحدة، وصففنا جميع الذرات التي استخدمناها على خط مستقيم. عندئذ قراءة آخر مفتاح سيحتاج مننا على الأقل  تيراليون (عشرة أس 12) سنة. &lt;/p&gt;
 &lt;h3 id=&#34;نماذج-أخرى&#34;&gt;نماذج أخرى&lt;/h3&gt;
 &lt;h4 dir=&#34;rtl&#34;&gt;&lt;b&gt; الذاكرة المكلفة Expensive Memory &lt;/b&gt;&lt;/h4&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
-أثناء مسابقة نيست NIST لاختيار &lt;a href=&#34;https://csrc.nist.gov/Projects/post-quantum-cryptography&#34;&gt;تشفير ممانع للحواسيب الكمية&lt;/a&gt; برز نموذج الذاكرة المكلفة Expensive Memory Model، باختصار وقت قراءة البت رقم n يتماشى مع &lt;/p&gt;
-$$\sqrt{n}$$
-&lt;p dir=&#34;rtl&#34;&gt; حسب فهمي مشكلة هذا النموذج إنه لا يقابل بنية الحواسيب الموجودة، فهو يفرض ضمنيا إن لدينا عدة معالجات جميعها تشترك بنفس الذاكرة وسرعة الوصول للبت رقم n هي نفسها لجميع المعالجات. &lt;/p&gt;
-&lt;h4 dir=&#34;rtl&#34;&gt;نموذج المساحة بالزمن AT (موضوع الرسالة)&lt;/h4&gt;
+أثناء مسابقة نيست NIST لاختيار &lt;a href=&#34;https://csrc.nist.gov/Projects/post-quantum-cryptography&#34;&gt;تشفير ممانع للحواسيب الكمية&lt;/a&gt; برز نموذج الذاكرة المكلفة Expensive Memory Model، باختصار وقت قراءة البت رقم n يتماشى مع
+&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;
+  &lt;msqrt&gt;
+    &lt;mi&gt;n&lt;/mi&gt;
+  &lt;/msqrt&gt;
+&lt;/math&gt;.
+  حسب فهمي مشكلة هذا النموذج إنه لا يقابل بنية الحواسيب الموجودة، فهو يفرض ضمنيا إن لدينا عدة معالجات جميعها تشترك بنفس الذاكرة وسرعة الوصول للبت رقم n هي نفسها لجميع المعالجات. &lt;/p&gt;
+&lt;h4 dir=&#34;rtl&#34;&gt;نموذج المساحة×بالزمن AT (موضوع الرسالة)&lt;/h4&gt;
 &lt;p dir=&#34;rtl&#34;&gt; ما نملكه حاليا عدة أجهزة، وتكلفة قراءة الذاكرة داخل كل جهاز أسرع من التواصل مع الأجهزة الأخرى.
-&lt;p&gt;أما النموذج الثالث سماه المساحةضرب الزمن  AT الاسم مستوحى من مجتمع تصنيع الدوائر الإلكترونية.&lt;/p&gt;
-&lt;p&gt;كيفية استخدام هذا النموذج في حساب تكلفة الهجمات هو لب العمل بالدكتوراه. إن كنت متحمس لمعرفة عن الفكرة بإمكانك قراءة الورقة &lt;a href=&#34;https://eprint.iacr.org/2022/197&#34;&gt;Nice Attacks&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p dir=&#34;rtl&#34;&gt;
+كيفية استخدام هذا النموذج في حساب تكلفة الهجمات هو لب العمل بالدكتوراه. إن كنت متحمس لمعرفة عن الفكرة بإمكانك قراءة الورقة &lt;a href=&#34;https://eprint.iacr.org/2022/197&#34;&gt;Nice Attacks&lt;/a&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;الخطة-لما-قبل-الدراسة&#34;&gt;الخطة لما قبل الدراسة&lt;/h2&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
 وصلني القبول الرسمي ببداية شهر مايو، ولدي تقريبا من ٣ إلى ٤ أشهر حتى بداية الدراسة. 
-&lt;p&gt;المجالات التي سأحاول دراستها:&lt;/p&gt;
+&lt;/p&gt;
+&lt;p dir=&#34;rtl&#34;&gt;
+المجالات التي سأحاول دراستها:
 &lt;/p&gt;
 &lt;ul dir=&#34;rtl&#34;&gt;
   &lt;li&gt; تعقيد التواصل Communication Complexity
@@ -96,7 +111,7 @@ $$\sqrt{n}$$
       &lt;li&gt; في البداية كنت أنوي تعلم البرمجة على كرت الشاشة GPU، لكن سألت المشرف وذكر لي إنه من الأفضل معرفة كيفية الحوسبة على أكثر من جهاز وستفيد بموضوع الرسالة.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt; لغة C++
+  &lt;li&gt; لغة &lt;span dir=&#34;ltr&#34;&gt;C++&lt;/span&gt;
     &lt;ul&gt;
       &lt;li&gt; المستوى المطلوب: تغطية أساسيات اللغة ومعرفة بعض مكونات المكتبة المعيارية
  &lt;/li&gt;
@@ -110,9 +125,9 @@ $$\sqrt{n}$$
     
     <item>
       <title>مقابلة الدكتوراه والتجهيز لما قبل بدء الدراسة</title>
-      <link>https://akaalharbi.github.io/ar/post/interview-and-palnning/</link>
+      <link>https://akaalharbi.github.io/ar/post.old/interview-and-palnning/</link>
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://akaalharbi.github.io/ar/post/interview-and-palnning/</guid>
+      <guid>https://akaalharbi.github.io/ar/post.old/interview-and-palnning/</guid>
       <description>&lt;style&gt;
 h1, h2, h3, h4, h5, h6, h7
 {
