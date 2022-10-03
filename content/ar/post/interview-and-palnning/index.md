@@ -22,11 +22,11 @@ featured: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
-image:
-   caption: 'شعار جامعة السوربون'
-   focal_point: ""
-   placement: 2
-   preview_only: false
+#image:
+#   caption: 'شعار جامعة السوربون'
+#   focal_point: ""
+#   placement: 2
+#   preview_only: false
 
 authors:
 - admin
@@ -163,14 +163,6 @@ AES-128(m, guess)
  </li>
     </ul>
   </li>
-  
-  <li> 
-الحوسبة بالتوازي Parallel Computing والحوسبة على أكثر من جهاز (واجهة تمرير الرسائل MPI)
-    <ul>
-      <li> في البداية كنت أنوي تعلم البرمجة على كرت الشاشة GPU، لكن سألت المشرف وذكر لي إنه من الأفضل معرفة كيفية الحوسبة على أكثر من جهاز وستفيد بموضوع الرسالة.</li>
-    </ul>
-  </li>
-
   <li> لغة <span dir="ltr">C++</span>
     <ul>
       <li> المستوى المطلوب: تغطية أساسيات اللغة ومعرفة بعض مكونات المكتبة المعيارية
