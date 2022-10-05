@@ -4,7 +4,7 @@
   
   
   <url>
-    <loc>https://akaalharbi.github.io/ar/categories/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://akaalharbi.github.io/ar/categories/</loc><lastmod>2022-10-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://akaalharbi.github.io/categories/"
@@ -14,7 +14,7 @@
       href="https://akaalharbi.github.io/ar/categories/"
     /></url>
   <url>
-    <loc>https://akaalharbi.github.io/ar/post/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://akaalharbi.github.io/ar/post/</loc><lastmod>2022-10-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://akaalharbi.github.io/post/"
@@ -24,7 +24,7 @@
       href="https://akaalharbi.github.io/ar/post/"
     /></url>
   <url>
-    <loc>https://akaalharbi.github.io/ar/tags/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://akaalharbi.github.io/ar/tags/</loc><lastmod>2022-10-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://akaalharbi.github.io/tags/"
@@ -34,7 +34,7 @@
       href="https://akaalharbi.github.io/ar/tags/"
     /></url>
   <url>
-    <loc>https://akaalharbi.github.io/ar/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://akaalharbi.github.io/ar/</loc><lastmod>2022-10-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://akaalharbi.github.io/"
@@ -42,6 +42,58 @@
       rel="alternate"
       hreflang="ar"
       href="https://akaalharbi.github.io/ar/"
+    /></url>
+  <url>
+    <loc>https://akaalharbi.github.io/ar/post/first-month/</loc><lastmod>2022-10-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://akaalharbi.github.io/ar/tag/%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%A1/</loc><lastmod>2022-10-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://akaalharbi.github.io/tag/%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%A1/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="https://akaalharbi.github.io/ar/tag/%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%A1/"
+    /></url>
+  <url>
+    <loc>https://akaalharbi.github.io/ar/category/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/</loc><lastmod>2022-10-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://akaalharbi.github.io/category/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="https://akaalharbi.github.io/ar/category/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/"
+    /></url>
+  <url>
+    <loc>https://akaalharbi.github.io/ar/tag/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/</loc><lastmod>2022-10-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://akaalharbi.github.io/tag/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="https://akaalharbi.github.io/ar/tag/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/"
+    /></url>
+  <url>
+    <loc>https://akaalharbi.github.io/ar/category/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/</loc><lastmod>2022-10-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://akaalharbi.github.io/category/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="https://akaalharbi.github.io/ar/category/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/"
+    /></url>
+  <url>
+    <loc>https://akaalharbi.github.io/ar/tag/%D9%82%D8%A8%D9%88%D9%84/</loc><lastmod>2022-10-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://akaalharbi.github.io/tag/%D9%82%D8%A8%D9%88%D9%84/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="https://akaalharbi.github.io/ar/tag/%D9%82%D8%A8%D9%88%D9%84/"
     /></url>
   <url>
     <loc>https://akaalharbi.github.io/ar/tag/%D8%AA%D8%B4%D9%81%D9%8A%D8%B1/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -62,56 +114,6 @@
       rel="alternate"
       hreflang="ar"
       href="https://akaalharbi.github.io/ar/tag/%D8%AA%D8%B9%D9%82%D9%8A%D8%AF-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84/"
-    /></url>
-  <url>
-    <loc>https://akaalharbi.github.io/ar/tag/%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%A1/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://akaalharbi.github.io/tag/%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%A1/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ar"
-      href="https://akaalharbi.github.io/ar/tag/%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%A1/"
-    /></url>
-  <url>
-    <loc>https://akaalharbi.github.io/ar/category/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://akaalharbi.github.io/category/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ar"
-      href="https://akaalharbi.github.io/ar/category/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/"
-    /></url>
-  <url>
-    <loc>https://akaalharbi.github.io/ar/tag/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://akaalharbi.github.io/tag/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ar"
-      href="https://akaalharbi.github.io/ar/tag/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/"
-    /></url>
-  <url>
-    <loc>https://akaalharbi.github.io/ar/category/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://akaalharbi.github.io/category/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ar"
-      href="https://akaalharbi.github.io/ar/category/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D9%87/"
-    /></url>
-  <url>
-    <loc>https://akaalharbi.github.io/ar/tag/%D9%82%D8%A8%D9%88%D9%84/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://akaalharbi.github.io/tag/%D9%82%D8%A8%D9%88%D9%84/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ar"
-      href="https://akaalharbi.github.io/ar/tag/%D9%82%D8%A8%D9%88%D9%84/"
     /></url>
   <url>
     <loc>https://akaalharbi.github.io/ar/post/interview-and-palnning/</loc><lastmod>2022-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
