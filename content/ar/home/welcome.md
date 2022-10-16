@@ -14,7 +14,6 @@ design:
 
 <p dir="rtl"> 
 طالب دكتوراه 
-<i>محتمل</i>
 بمعمل
 <a href="https://www.lip6.fr/"> LiP6 </a>
 بجامعة السوربون
