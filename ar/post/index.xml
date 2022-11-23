@@ -67,12 +67,10 @@ font-weight: bold; // it was normal
 &lt;h3 id=&#34;السبر-الخطي-تجريبيا&#34;&gt;السبر الخطي تجريبيا&lt;/h3&gt;
 &lt;p dir=&#34;rtl&#34;&gt;كنوث حسب عدد المرات المتوقعة نظريا لو كانت الدالة h(x) عشوائية.
 أجرينا تجربة على معدلات تعبئة مختلفة&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;&lt;code&gt;
-alpha, nlookup,        nprobes_lookup
-0.50, 6780350 elm/sec, 1.5  probes/elm
-0.63, 6456515 elm/sec, 3.15 probes/elm
-&lt;/code&gt;
-في السطر الأول معدل التعبئة هو نصف، بينما السطر الثاني معدل التعٰبئة ٠.٦٣.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;alpha, nlookup,        nprobes_lookup
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0.50, 6780350 elm/sec, 1.5  probes/elm
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0.63, 6456515 elm/sec, 3.15 probes/elm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;في السطر الأول معدل التعبئة هو نصف، بينما السطر الثاني معدل التعٰبئة ٠.٦٣.&lt;/p&gt;&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;لاحظ هنا لنبحث عن عنصر واحد عدد القراءات في السطر الثاني أكثر من الضعف (٣.١٥ خانة نقرأها) لكن الأداء ما قل للنصف!&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;هنا أنقذنا الكاش، لأنه عندما يقرأ عنصر من الذاكر سيقرأ عدد من العناصر المجاورة. للمزيد اقرأ عن خط الكاش cache-line. &lt;/p&gt;
 &lt;h3 id=&#34;تسريع-السبر-الخطي-مع-معدلات-تعبئة-مرتفعة&#34;&gt;تسريع السبر الخطي مع معدلات تعبئة مرتفعة&lt;/h3&gt;

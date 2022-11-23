@@ -764,12 +764,10 @@ font-weight: bold; // it was normal
 <h3 id="السبر-الخطي-تجريبيا">السبر الخطي تجريبيا</h3>
 <p dir="rtl">كنوث حسب عدد المرات المتوقعة نظريا لو كانت الدالة h(x) عشوائية.
 أجرينا تجربة على معدلات تعبئة مختلفة</p>
-<p dir="rtl"><code>
-alpha, nlookup,        nprobes_lookup
-0.50, 6780350 elm/sec, 1.5  probes/elm
-0.63, 6456515 elm/sec, 3.15 probes/elm
-</code>
-في السطر الأول معدل التعبئة هو نصف، بينما السطر الثاني معدل التعٰبئة ٠.٦٣.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">alpha, nlookup,        nprobes_lookup
+</span></span><span class="line"><span class="cl">0.50, 6780350 elm/sec, 1.5  probes/elm
+</span></span><span class="line"><span class="cl">0.63, 6456515 elm/sec, 3.15 probes/elm
+</span></span></code></pre></div><p>في السطر الأول معدل التعبئة هو نصف، بينما السطر الثاني معدل التعٰبئة ٠.٦٣.</p></p>
 <p dir="rtl">لاحظ هنا لنبحث عن عنصر واحد عدد القراءات في السطر الثاني أكثر من الضعف (٣.١٥ خانة نقرأها) لكن الأداء ما قل للنصف!</p>
 <p dir="rtl">هنا أنقذنا الكاش، لأنه عندما يقرأ عنصر من الذاكر سيقرأ عدد من العناصر المجاورة. للمزيد اقرأ عن خط الكاش cache-line. </p>
 <h3 id="تسريع-السبر-الخطي-مع-معدلات-تعبئة-مرتفعة">تسريع السبر الخطي مع معدلات تعبئة مرتفعة</h3>
