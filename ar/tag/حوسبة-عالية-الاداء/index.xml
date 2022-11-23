@@ -81,22 +81,22 @@ font-weight: bold; // it was normal
 &lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;90_filling_rate.jpg&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;
 لاحظ من الرسم عدد العناصر التي تحتاج لزيارة خانات كثير عندما نريد إضافتها لجدول الهاش يقل في البداية بسرعة ثم يتباطأ.&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;ولو أردنا قيم أدق &lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;=  1) = 0.55
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;=  2) = 0.69
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;=  3) = 0.76
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;=  4) = 0.80
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;=  5) = 0.83
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;=  6) = 0.85
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;=  7) = 0.87
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;=  8) = 0.88
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;=  9) = 0.89
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;= 10) = 0.90
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;= 11) = 0.91
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;= 12) = 0.917
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;= 13) = 0.92
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;= 14) = 0.927
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;= 15) = 0.93
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;amp;lt;= 16) = 0.936
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;=  1) = 0.55
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;=  2) = 0.69
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;=  3) = 0.76
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;=  4) = 0.80
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;=  5) = 0.83
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;=  6) = 0.85
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;=  7) = 0.87
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;=  8) = 0.88
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;=  9) = 0.89
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;= 10) = 0.90
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;= 11) = 0.91
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;= 12) = 0.917
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;= 13) = 0.92
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;= 14) = 0.927
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;= 15) = 0.93
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Pr(nprobes &amp;lt;= 16) = 0.936
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p dir=&#34;rtl&#34;&gt;من السطر الأخير عندما كنا نستهدف معدل تعبئة ٩٠٪، تقريبا ٩٣٪ من العناصر لن يحتاج لأكثر من ١٦ قراءة لخانة مجاورة عند إضافته.&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;لذا لو اضفنا هذه العناصر فقط لن نحتاج في البحث لأكثر من قراءة ١٦ خانة مجاورة، وحالفنا الحظ هنا لأن خط الكاش حجمه ٦٤ بايت (٥١٢ بت) لو كان حجم العنصر ٤ بايت (٣٢ بت) فقراءة خانة واحدة هي نفس تكلفة قراءة ١٦ خانة مجاورة.&lt;/p&gt;
 &lt;h2 id=&#34;حيلة-أخيرة&#34;&gt;حيلة أخيرة&lt;/h2&gt;
