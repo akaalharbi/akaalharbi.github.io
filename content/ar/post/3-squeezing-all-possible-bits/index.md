@@ -125,22 +125,22 @@ alpha, nlookup,        nprobes_lookup
 <p dir="rtl">ولو أردنا قيم أدق </p>
 
 ```
-Pr(nprobes &lt;=  1) = 0.55
-Pr(nprobes &lt;=  2) = 0.69
-Pr(nprobes &lt;=  3) = 0.76
-Pr(nprobes &lt;=  4) = 0.80
-Pr(nprobes &lt;=  5) = 0.83
-Pr(nprobes &lt;=  6) = 0.85
-Pr(nprobes &lt;=  7) = 0.87
-Pr(nprobes &lt;=  8) = 0.88
-Pr(nprobes &lt;=  9) = 0.89
-Pr(nprobes &lt;= 10) = 0.90
-Pr(nprobes &lt;= 11) = 0.91
-Pr(nprobes &lt;= 12) = 0.917
-Pr(nprobes &lt;= 13) = 0.92
-Pr(nprobes &lt;= 14) = 0.927
-Pr(nprobes &lt;= 15) = 0.93
-Pr(nprobes &lt;= 16) = 0.936
+Pr(nprobes <=  1) = 0.55
+Pr(nprobes <=  2) = 0.69
+Pr(nprobes <=  3) = 0.76
+Pr(nprobes <=  4) = 0.80
+Pr(nprobes <=  5) = 0.83
+Pr(nprobes <=  6) = 0.85
+Pr(nprobes <=  7) = 0.87
+Pr(nprobes <=  8) = 0.88
+Pr(nprobes <=  9) = 0.89
+Pr(nprobes <= 10) = 0.90
+Pr(nprobes <= 11) = 0.91
+Pr(nprobes <= 12) = 0.917
+Pr(nprobes <= 13) = 0.92
+Pr(nprobes <= 14) = 0.927
+Pr(nprobes <= 15) = 0.93
+Pr(nprobes <= 16) = 0.936
 ```
 
 <p dir="rtl">من السطر الأخير عندما كنا نستهدف معدل تعبئة ٩٠٪، تقريبا ٩٣٪ من العناصر لن يحتاج لأكثر من ١٦ قراءة لخانة مجاورة عند إضافته.</p>
