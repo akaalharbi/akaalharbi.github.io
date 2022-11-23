@@ -15,4 +15,4 @@ header:
 ---
 
 # <script defer src="https://cdn.commento.io/js/commento.js"></script>
-<div  id="commento" dir="rtl"></div>
+# <div  id="commento" dir="rtl"></div>
