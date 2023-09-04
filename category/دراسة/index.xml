@@ -5,109 +5,12 @@
     <link>https://akaalharbi.github.io/category/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/</link>
       <atom:link href="https://akaalharbi.github.io/category/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/index.xml" rel="self" type="application/rss+xml" />
     <description>دراسة</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Sep 2023 20:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://akaalharbi.github.io/media/logo_hub46516a2f96be106613fa4551e055d59_482_300x300_fit_lanczos_3.png</url>
       <title>دراسة</title>
       <link>https://akaalharbi.github.io/category/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9/</link>
     </image>
-    
-    <item>
-      <title>كيف يعمل الكوانتم أنيلر (كمبيوتر دي-ويف)</title>
-      <link>https://akaalharbi.github.io/ar/post/4-d-wave-quantum-annealer/</link>
-      <pubDate>Mon, 04 Sep 2023 20:00:00 +0000</pubDate>
-      <guid>https://akaalharbi.github.io/ar/post/4-d-wave-quantum-annealer/</guid>
-      <description>&lt;style&gt;
-h1, h2, h3, h4, h5, h6, h7
-{
-font-weight: bold; // it was normal
-}
-&lt;/style&gt;
-&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
-  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#مقدمة&#34;&gt;مقدمة&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#كيف-يعمل-كمبيوتر-الكوانتم-أنيلر&#34;&gt;كيف يعمل كمبيوتر الكوانتم أنيلر&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#تجربة-لكمبيوتر-دي-ويف&#34;&gt;تجربة لكمبيوتر دي-ويف&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#خاتمة&#34;&gt;خاتمة&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#مراجع&#34;&gt;مراجع&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&#34;مقدمة&#34;&gt;مقدمة&lt;/h2&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-كنت منبهر من دعاية د-ويف D-Wave عن الكوانتم كمبيوتر (الحاسب الكمي) Quantum Computer ب5627 كيوبت. وحصلت لي فرصة هذا الأسبوع لحضور مدرسة صيفية عن الكوانتم الأنيلر في معهد يوليش للأبحاث Forschungszentrum Jülich. &lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-أنا جدا ممتن للمنظمين على إتاحتهم الفرصة لجميع المهتمين لتجربة الكوانتم الكمبيوتر  وتدريبهم عليه تقريبا بلا مقابل. للمقارنة لو أراد شخص تدريب من شركة دي-ويف D-Wave سيدفع تقريبا 1000 دولار، ولتجربة الكمبيوتر سيدفع 4000 دولار لصلاحية وصول لمدة شهر (بدورة يوليش صلاحية الوصول أكثر من شهر!)&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-وخلاصة انطباعي إن كمبيوتر دي-ويف مخيب للآمال وقدرته في الواقع عليها علامات استفهام كثيرة، وبالنسبة لي أرى من الأفضل لي استخدم كمبيوتر عادي.&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
- في هذه المقالة سنرى بشكل مبسط كيف يعمل الكوانتم أنيلر (الكوانتم كمبيوتر المبني على الأنيلر)، وما هي سرعة حله للمسائل. وبعدها سنرى أداء كمبيوتر دي-ويف في الواقع.
-&lt;/p&gt;
-&lt;h2 id=&#34;كيف-يعمل-كمبيوتر-الكوانتم-أنيلر&#34;&gt;كيف يعمل كمبيوتر الكوانتم أنيلر&lt;/h2&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-ملاحظة: المجال ما هو تخصصي لكني حاولت أراجع فهمي مع شخص متخصص.
-&lt;p&gt;الكوانتم أنيلر يحل المسألة التالية:&lt;/p&gt;
-&lt;/p&gt;
-&lt;p&gt;$$ min_{x_i = 0, 1} \left(\sum_{i=0}^{N-1} a_i x_i  + \sum_{i&amp;lt;j}^{N-1} b_{ij} x_i x_j  \right)$$&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-هذه المسألة NP-Hard، ولا يعني أنها غير قابلة للحل ولكن وقت الحل على الأسوأ أسي. 
-&lt;p&gt;والمبهر بالموضوع إن هذه المعادلة تمثل نظام فيزيائي بإمكاننا إنشائه وأقل طاقة يكون فيها هذا النظام الفيزيائي هو ما يقابل الحل لمعادلتنا!&lt;/p&gt;
-&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;quantum-annealer.png&#34; alt=&#34;طاقات الوضع&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-بشكل أدق نبدأ بنظام فيزيائي بسيط بأقل طاقة وضع(أقصى اليسار بالرسمة)، ومن ثم نغير النظام ببطء حتى نصل للنظام اللذي يمثل مسألتنا (أقصى اليمين). وبحسب النظرية الأساسية للكوانتم الأنيلر فإن هذا سيضمن لنا عندما نصل للنظام اللذي يمثل مسألتنا بأننا سنكون بأقل طاقة وضع، على فرض إن حركتنا كانت بطيئة بشكل كافي.
-&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-ولنرى تفصيل أكثر لما يعني ببطء، نتحاج أن نرى رسمة مستويات الطاقة اللتي يمكن أن يكون النظام فيها :
-&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;ground_states.jpg&#34; alt=&#34;طاقات الوضع&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-لو قرأنا الرسم من الأسفل للأعلى سنرى أن المنحنى بالأسفل يمثل أقل طاقة وضع يمكن أن يكون فيها النظام، والمنحنى الأعلى منه ثاني أصغر طاقة  وضع للنظام.&lt;/p&gt;
- &lt;p dir=&#34;rtl&#34;&gt;
-وفي أقصى اليسار النظام البسيط الذي ابتدأنا فيه، وكل ما اتجهنا لليمين يزيد الوقت ويتغير النظام حتى نصل للنظام اللذي يمثل مسألتنا.&lt;/p&gt;
- &lt;p dir=&#34;rtl&#34;&gt;
-وفي الرسمة هناك قيمة بارزة باسم g، هذه القيمة هي أقل فرق بين المستوى الطاقة الأدنى مقارنة بمستوى الطاقة الأعلى. وتبين  أن الوقت اللي نحتاجه يتماشى
-&lt;/p&gt;
-&lt;p&gt;$$\frac{1}{g^2}$$&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-أي كل ما قل الفرق كل ما احتجنا وقت أكثر، لو قل فرق الطاقة إلى الثلث لاحتجنا ل9 أضعاف الوقت!
-هذا أول خبر سيء، والخبر الأسوأ إن g تقل أسيا مع مرور الوقت! لمعرفة تفاصيل أكثر راجع محاضرات سكوت آرنسون وابحث عن Spectral Gap. وبالنسبة لي هي المشكلة الأساسية بجهاز دي-ويف،  ولكن المشاكل لا تنتهي هنا.
-&lt;/p&gt;
-&lt;h2 id=&#34;تجربة-لكمبيوتر-دي-ويف&#34;&gt;تجربة لكمبيوتر دي-ويف&lt;/h2&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-حاولت حل مسألة المسافر بجهاز دي-ويف بين 10 مدن (باختصار نبحث عن أقصر مسار يمر بين جميع المدن):
-وبعد 100 قراءة وأخذ المتوسط بينها، أعطاني حل خاطئ (لاحظ مدينة وارسو Warsaw ما يزورها):&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;tsp.png&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-وحاولت تجربة المسألة على 15 مدينة وأعطاني الخطأ التالي:&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;failed_embedding.png&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-لنرى أولا مشكلة دقة الحل، أحد المحاضرين عرض هذه الرسمة&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;succ_rate.png&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-والتي تقول باختصار، بعد حد معين  كل ما كبر حجم المسألة كل ما كانت دقة الحل أسوء!&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-أما مشكلة التضمين (من دخول بتفاصيل)، عندما ندخل مسألة لكمبيوتر دي-ويف فإننا نصف روابط بين الكيوبتات، ولكن بكمبيوتر دي-ويف ليست كل الكيوبتات متصلة ببعضها.&lt;/p&gt; 
-&lt;p dir=&#34;rtl&#34;&gt;
-دي-ويف تحل المسألة بمعاملة أكثر من كيوبت كأنه كيوبت واحد، كما هو موضح في الصورة التالية:&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;embedding-sol.png&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-في تجربتنا لتسعة مدن كان تضمين المسألة كالتالي:&lt;/p&gt;
-&lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;embedding_result.png&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;خاتمة&#34;&gt;خاتمة&lt;/h2&gt;
-&lt;p dir=&#34;rtl&#34;&gt;
-كان سقف توقعاتي عالي وكنت أتوقع ربما أستطيع كمبيوتر دي-ويف لإيجاد نتيجة جديدة، وتبين لي إنها أحلام يقظة في الوقت الحالي. في هذه المقالة تجاوزت شرح النفق الكمي، حيث لا أعرف متى إن المسألة ستسفيد من هذه الظاهرة.
-&lt;/p&gt;
-&lt;h2 id=&#34;مراجع&#34;&gt;مراجع&lt;/h2&gt;
-&lt;ul dir=&#34;ltr&#34;&gt;
-&lt;li&gt; Introduction to Quantum Information Science II Lecture Notes by Scott Aaronson &lt;/li&gt;
-&lt;li&gt; Quantum Information Processing – Applications on Gate-based and Annealing System &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>استخدام كل ما يمكن من الذاكرة</title>
