@@ -38,7 +38,7 @@ font-weight: bold; // it was normal
 
 &lt;h2 id=&#34;مقدمة&#34;&gt;مقدمة&lt;/h2&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
-كنت منبهر من دعاية د-ويف D-Wave عن الكوانتم كمبيوتر (الحاسب الكمي) Quantum Computer ب5627 كيوبت. وحصلت لي فرصة هذا الأسبوع لحضور مدرسة صيفية عن الكوانتم الأنيلر في معهد يوليش للأبحاث Forschungszentrum Jülich.
+كنت منبهر من دعاية د-ويف D-Wave عن الكوانتم كمبيوتر (الحاسب الكمي) Quantum Computer ب5627 كيوبت(المقابل لبت بالكوانتم كمبيوتر). وحصلت لي فرصة هذا الأسبوع لحضور مدرسة صيفية عن الكوانتم الأنيلر في معهد يوليش للأبحاث Forschungszentrum Jülich.
  &lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
 أنا جدا ممتن للمنظمين على إتاحتهم الفرصة لجميع المهتمين لتجربة الكوانتم الكمبيوتر  وتدريبهم عليه تقريبا بلا مقابل. للمقارنة لو أراد شخص تدريب من شركة دي-ويف D-Wave سيدفع تقريبا 1000 دولار، ولتجربة الكمبيوتر سيدفع 4000 دولار لصلاحية وصول لمدة شهر (بدورة يوليش صلاحية الوصول أكثر من شهر!)
@@ -50,13 +50,13 @@ font-weight: bold; // it was normal
 &lt;/p&gt;
 &lt;h2 id=&#34;كيف-يعمل-كمبيوتر-الكوانتم-أنيلر&#34;&gt;كيف يعمل كمبيوتر الكوانتم أنيلر&lt;/h2&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
-ملاحظة: المجال ما هو تخصصي لكني حاولت أراجع فهمي مع شخص متخصص.
-&lt;p&gt;الكوانتم أنيلر يحل المسألة التالية:&lt;/p&gt;
-&lt;/p&gt;
+ملاحظة: المجال ما هو تخصصي لكني حاولت أراجع فهمي مع شخص متخصص.&lt;/p&gt;
+&lt;p dir=&#34;rtl&#34;&gt;
+كمبيوتر الكوانتم أنيلر Quantum Annealer يحل المسألة التالية:
+&lt;p dir=&#34;rtl&#34;&gt;
 &lt;p&gt;$$ min_{x_i = 0, 1} \left(\sum_{i=0}^{N-1} a_i x_i  + \sum_{i&amp;lt;j}^{N-1} b_{ij} x_i x_j  \right)$$&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
-هذه المسألة NP-Hard، ولا يعني أنها غير قابلة للحل ولكن وقت الحل على الأسوأ أسي. 
-&lt;p&gt;والمبهر بالموضوع إن هذه المعادلة تمثل نظام فيزيائي بإمكاننا إنشائه وأقل طاقة يكون فيها هذا النظام الفيزيائي هو ما يقابل الحل لمعادلتنا!&lt;/p&gt;
+هذه المسألة NP-Hard، ولا يعني أنها غير قابلة للحل ولكن وقت الحل على الأسوأ أسي. والمبهر بالموضوع إن هذه المعادلة تمثل نظام فيزيائي بإمكاننا إنشائه وأقل طاقة يكون فيها هذا النظام الفيزيائي هو ما يقابل الحل لمعادلتنا!
 &lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;quantum-annealer.png&#34; alt=&#34;طاقات الوضع&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
@@ -71,7 +71,7 @@ font-weight: bold; // it was normal
  &lt;p dir=&#34;rtl&#34;&gt;
 وفي أقصى اليسار النظام البسيط الذي ابتدأنا فيه، وكل ما اتجهنا لليمين يزيد الوقت ويتغير النظام حتى نصل للنظام اللذي يمثل مسألتنا.&lt;/p&gt;
  &lt;p dir=&#34;rtl&#34;&gt;
-وفي الرسمة هناك قيمة بارزة باسم g، هذه القيمة هي أقل فرق بين المستوى الطاقة الأدنى مقارنة بمستوى الطاقة الأعلى. وتبين  أن الوقت اللي نحتاجه يتماشى
+وفي الرسمة هناك قيمة بارزة باسم g، هذه القيمة هي أقل فرق بين المستوى الطاقة الأدنى مقارنة بمستوى الطاقة الأعلى. وتبين  أن الوقت اللي نحتاجه يتماشى مع
 &lt;/p&gt;
 &lt;p&gt;$$\frac{1}{g^2}$$&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
@@ -87,7 +87,7 @@ font-weight: bold; // it was normal
 وحاولت تجربة المسألة على 15 مدينة وأعطاني الخطأ التالي:&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;failed_embedding.png&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
-لنرى أولا مشكلة دقة الحل، أحد المحاضرين عرض هذه الرسمة&lt;/p&gt;
+لنرى أولا مشكلة دقة الحل، أحد المحاضرين عرض هذه الرسمة:&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;succ_rate.png&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
 والتي تقول باختصار، بعد حد معين  كل ما كبر حجم المسألة كل ما كانت دقة الحل أسوء!&lt;/p&gt;
@@ -97,6 +97,8 @@ font-weight: bold; // it was normal
 دي-ويف تحل المسألة بمعاملة أكثر من كيوبت كأنه كيوبت واحد، كما هو موضح في الصورة التالية:&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;embedding-sol.png&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;
+لاحظ هنا بالأعلى (الهرمين) هو وصف لربط الكيوبتات بكمبيوتر دي-ويف، ولايمكننا هنا إيجاد رابطة كأنها مثلث. لذا سنأخذ كيوبتين بالأعلى على أنهم كيوبت واحد. هذه الطريقة قد تزيد نسبة الخطأ.&lt;/p&gt;
+&lt;p dir=&#34;rtl&#34;&gt;
 في تجربتنا لتسعة مدن كان تضمين المسألة كالتالي:&lt;/p&gt;
 &lt;p dir=&#34;rtl&#34;&gt;&lt;img src=&#34;embedding_result.png&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;خاتمة&#34;&gt;خاتمة&lt;/h2&gt;
@@ -105,8 +107,8 @@ font-weight: bold; // it was normal
 &lt;/p&gt;
 &lt;h2 id=&#34;مراجع&#34;&gt;مراجع&lt;/h2&gt;
 &lt;ul dir=&#34;ltr&#34;&gt;
-&lt;li&gt; Introduction to Quantum Information Science II Lecture Notes by Scott Aaronson &lt;/li&gt;
-&lt;li&gt; Quantum Information Processing – Applications on Gate-based and Annealing System &lt;/li&gt;
+&lt;li&gt; &lt;a href=&#34;https://www.scottaaronson.com/qclec.pdf&#34;&gt; Introduction to Quantum Information Science II Lecture Notes by Scott Aaronson Fall 2018 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&#34;https://indico3-jsc.fz-juelich.de/event/96/&#34;&gt; Summerschool: Quantum Information Processing – Applications on Gate-based and Annealing System &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

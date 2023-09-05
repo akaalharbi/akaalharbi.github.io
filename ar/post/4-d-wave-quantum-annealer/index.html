@@ -325,7 +325,6 @@
   
   
     
-    
   
   
 
@@ -334,7 +333,7 @@
     
     
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
     <meta property="twitter:site" content="@akaalharbi" />
     <meta property="twitter:creator" content="@akaalharbi" />
@@ -342,8 +341,8 @@
   <meta property="og:site_name" content="أحمد الحربي" />
   <meta property="og:url" content="https://akaalharbi.github.io/ar/post/4-d-wave-quantum-annealer/" />
   <meta property="og:title" content="كيف يعمل الكوانتم أنيلر (كمبيوتر دي-ويف) | أحمد الحربي" />
-  <meta property="og:description" content="كيف يعمل الكوانتم كمبيوتر من شركة دي-ويف، وكيف أدائه؟" /><meta property="og:image" content="https://akaalharbi.github.io/media/logo_hub46516a2f96be106613fa4551e055d59_482_300x300_fit_lanczos_3.png" />
-    <meta property="twitter:image" content="https://akaalharbi.github.io/media/logo_hub46516a2f96be106613fa4551e055d59_482_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="ar" />
+  <meta property="og:description" content="كيف يعمل الكوانتم كمبيوتر من شركة دي-ويف، وكيف أدائه؟" /><meta property="og:image" content="https://akaalharbi.github.io/ar/post/4-d-wave-quantum-annealer/featured.jpg" />
+    <meta property="twitter:image" content="https://akaalharbi.github.io/ar/post/4-d-wave-quantum-annealer/featured.jpg" /><meta property="og:locale" content="ar" />
   
     
       <meta
@@ -378,6 +377,10 @@
     "@id": "https://akaalharbi.github.io/ar/post/4-d-wave-quantum-annealer/"
   },
   "headline": "كيف يعمل الكوانتم أنيلر (كمبيوتر دي-ويف)",
+  
+  "image": [
+    "https://akaalharbi.github.io/ar/post/4-d-wave-quantum-annealer/featured.jpg"
+  ],
   
   "datePublished": "2023-09-04T20:00:00Z",
   "dateModified": "2023-09-04T20:00:00Z",
@@ -621,18 +624,25 @@
 
 
 
-  
+
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
   <h1>كيف يعمل الكوانتم أنيلر (كمبيوتر دي-ويف)</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -683,13 +693,20 @@
 
 </div>
 
-    
-
-
-
-
-
   
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 960px;">
+  <div style="position: relative">
+    <img src="../../../ar/post/4-d-wave-quantum-annealer/featured_huf1a9f2f275537e4720c8668ba69d983a_146178_720x2500_fit_q75_h2_lanczos.webp" width="720" height="960" alt="" class="featured-image">
+    <span class="article-header-caption">كمبيوتر دي-ويف شفاف</span>
+  </div>
 </div>
 
 
@@ -718,7 +735,7 @@ font-weight: bold; // it was normal
 
 <h2 id="مقدمة">مقدمة</h2>
 <p dir="rtl">
-كنت منبهر من دعاية د-ويف D-Wave عن الكوانتم كمبيوتر (الحاسب الكمي) Quantum Computer ب5627 كيوبت. وحصلت لي فرصة هذا الأسبوع لحضور مدرسة صيفية عن الكوانتم الأنيلر في معهد يوليش للأبحاث Forschungszentrum Jülich.
+كنت منبهر من دعاية د-ويف D-Wave عن الكوانتم كمبيوتر (الحاسب الكمي) Quantum Computer ب5627 كيوبت(المقابل لبت بالكوانتم كمبيوتر). وحصلت لي فرصة هذا الأسبوع لحضور مدرسة صيفية عن الكوانتم الأنيلر في معهد يوليش للأبحاث Forschungszentrum Jülich.
  </p>
 <p dir="rtl">
 أنا جدا ممتن للمنظمين على إتاحتهم الفرصة لجميع المهتمين لتجربة الكوانتم الكمبيوتر  وتدريبهم عليه تقريبا بلا مقابل. للمقارنة لو أراد شخص تدريب من شركة دي-ويف D-Wave سيدفع تقريبا 1000 دولار، ولتجربة الكمبيوتر سيدفع 4000 دولار لصلاحية وصول لمدة شهر (بدورة يوليش صلاحية الوصول أكثر من شهر!)
@@ -730,13 +747,13 @@ font-weight: bold; // it was normal
 </p>
 <h2 id="كيف-يعمل-كمبيوتر-الكوانتم-أنيلر">كيف يعمل كمبيوتر الكوانتم أنيلر</h2>
 <p dir="rtl">
-ملاحظة: المجال ما هو تخصصي لكني حاولت أراجع فهمي مع شخص متخصص.
-<p>الكوانتم أنيلر يحل المسألة التالية:</p>
-</p>
+ملاحظة: المجال ما هو تخصصي لكني حاولت أراجع فهمي مع شخص متخصص.</p>
+<p dir="rtl">
+كمبيوتر الكوانتم أنيلر Quantum Annealer يحل المسألة التالية:
+<p dir="rtl">
 <p>$$ min_{x_i = 0, 1} \left(\sum_{i=0}^{N-1} a_i x_i  + \sum_{i&lt;j}^{N-1} b_{ij} x_i x_j  \right)$$</p>
 <p dir="rtl">
-هذه المسألة NP-Hard، ولا يعني أنها غير قابلة للحل ولكن وقت الحل على الأسوأ أسي. 
-<p>والمبهر بالموضوع إن هذه المعادلة تمثل نظام فيزيائي بإمكاننا إنشائه وأقل طاقة يكون فيها هذا النظام الفيزيائي هو ما يقابل الحل لمعادلتنا!</p>
+هذه المسألة NP-Hard، ولا يعني أنها غير قابلة للحل ولكن وقت الحل على الأسوأ أسي. والمبهر بالموضوع إن هذه المعادلة تمثل نظام فيزيائي بإمكاننا إنشائه وأقل طاقة يكون فيها هذا النظام الفيزيائي هو ما يقابل الحل لمعادلتنا!
 </p>
 <p dir="rtl"><img src="quantum-annealer.png" alt="طاقات الوضع" title="" /></p>
 <p dir="rtl">
@@ -751,7 +768,7 @@ font-weight: bold; // it was normal
  <p dir="rtl">
 وفي أقصى اليسار النظام البسيط الذي ابتدأنا فيه، وكل ما اتجهنا لليمين يزيد الوقت ويتغير النظام حتى نصل للنظام اللذي يمثل مسألتنا.</p>
  <p dir="rtl">
-وفي الرسمة هناك قيمة بارزة باسم g، هذه القيمة هي أقل فرق بين المستوى الطاقة الأدنى مقارنة بمستوى الطاقة الأعلى. وتبين  أن الوقت اللي نحتاجه يتماشى
+وفي الرسمة هناك قيمة بارزة باسم g، هذه القيمة هي أقل فرق بين المستوى الطاقة الأدنى مقارنة بمستوى الطاقة الأعلى. وتبين  أن الوقت اللي نحتاجه يتماشى مع
 </p>
 <p>$$\frac{1}{g^2}$$</p>
 <p dir="rtl">
@@ -767,7 +784,7 @@ font-weight: bold; // it was normal
 وحاولت تجربة المسألة على 15 مدينة وأعطاني الخطأ التالي:</p>
 <p dir="rtl"><img src="failed_embedding.png" alt="" title="" /></p>
 <p dir="rtl">
-لنرى أولا مشكلة دقة الحل، أحد المحاضرين عرض هذه الرسمة</p>
+لنرى أولا مشكلة دقة الحل، أحد المحاضرين عرض هذه الرسمة:</p>
 <p dir="rtl"><img src="succ_rate.png" alt="" title="" /></p>
 <p dir="rtl">
 والتي تقول باختصار، بعد حد معين  كل ما كبر حجم المسألة كل ما كانت دقة الحل أسوء!</p>
@@ -777,6 +794,8 @@ font-weight: bold; // it was normal
 دي-ويف تحل المسألة بمعاملة أكثر من كيوبت كأنه كيوبت واحد، كما هو موضح في الصورة التالية:</p>
 <p dir="rtl"><img src="embedding-sol.png" alt="" title="" /></p>
 <p dir="rtl">
+لاحظ هنا بالأعلى (الهرمين) هو وصف لربط الكيوبتات بكمبيوتر دي-ويف، ولايمكننا هنا إيجاد رابطة كأنها مثلث. لذا سنأخذ كيوبتين بالأعلى على أنهم كيوبت واحد. هذه الطريقة قد تزيد نسبة الخطأ.</p>
+<p dir="rtl">
 في تجربتنا لتسعة مدن كان تضمين المسألة كالتالي:</p>
 <p dir="rtl"><img src="embedding_result.png" alt="" title="" /></p>
 <h2 id="خاتمة">خاتمة</h2>
@@ -785,8 +804,8 @@ font-weight: bold; // it was normal
 </p>
 <h2 id="مراجع">مراجع</h2>
 <ul dir="ltr">
-<li> Introduction to Quantum Information Science II Lecture Notes by Scott Aaronson </li>
-<li> Quantum Information Processing – Applications on Gate-based and Annealing System </li>
+<li> <a href="https://www.scottaaronson.com/qclec.pdf"> Introduction to Quantum Information Science II Lecture Notes by Scott Aaronson Fall 2018 </a></li>
+<li> <a href="https://indico3-jsc.fz-juelich.de/event/96/"> Summerschool: Quantum Information Processing – Applications on Gate-based and Annealing System </a></li>
 </ul>
 
     </div>
